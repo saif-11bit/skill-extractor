@@ -10,7 +10,7 @@ from skillNer.skill_extractor_class import SkillExtractor
 import numpy as np
 from IPython.core.display import HTML
 # init params of skill extractor
-nlp = spacy.load("en_core_web_lg")
+nlp = spacy.load("en_core_web_sm")
 # init skill extractor
 skill_extractor = SkillExtractor(nlp, SKILL_DB, PhraseMatcher)
 
